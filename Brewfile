@@ -11,7 +11,15 @@ brew "mas" # mac app store
 cask "iterm2" # iTerm2 terminal
 brew "fish" # fish shell
 brew "starship" # shell prompt
-cask "font-fira-code-nerd-font" # font
+
+# Fonts
+cask "font-fira-code-nerd-font" 
+cask "font-0xproto-nerd-font"
+cask "font-anonymice-nerd-font"
+cask "font-anonymice-powerline"
+cask "font-fira-mono-nerd-font"
+cask "font-fira-mono-for-powerline"
+cask "homebrew/cask-fonts/font-hack-nerd-font"
 
 # shell tools
 brew "neovim" # NeoVim editor
