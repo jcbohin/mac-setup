@@ -59,6 +59,7 @@ mas "1Password for Safari", id: 1569813296 # 1password for safari extension
 mas "com.kagimacOS.Kagi-Search", id: 1622835804 # Kagi search
 mas "Vinegar", id: 1591303229 # Adds native video control to web videos
 mas "Tampermonkey", id: 1482490089 # to change certain webpages behavior
+mas "StopTheMadness Pro", id: 6471380298 # remove unwanted websites behaviors
 
 # Applications
 cask "netnewswire" # RSS reader
