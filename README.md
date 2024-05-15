@@ -63,8 +63,6 @@ defaults write com.apple.appleseed.FeedbackAssistant "Autogather" -bool "false" 
 ```
 
 ## TODOS
-- MacOS Settings : https://macos-defaults.com/#🙋-what-s-a-defaults-command
-- Fonts
 - fish advanced config
 - iterm config
 - 1password config (agent, ...)
