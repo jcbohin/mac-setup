@@ -30,7 +30,7 @@ brew "fzf" # file fuzzy-finder
 brew "difftastic" # better diff
 # brew "dog" # DNS client deprecated upstream
 brew "duti" # usefull to change default extension handler app
-brew "fs" # better find
+# brew "fs" # better find
 brew "git"
 brew "git-delta" # better diff
 brew "gping" # petter ping
@@ -53,6 +53,8 @@ brew "xsv" # CSV manipulation
 brew "yank" # terminal output to clipboard
 brew "ykman" # yubikey manager
 brew "zoxide" # smart cd
+brew "atuin" # shell history
+brew "lazygit" # simple git client
 
 # Safari extensions
 mas "1Password for Safari", id: 1569813296 # 1password for safari extension

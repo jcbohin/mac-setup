@@ -63,6 +63,7 @@ defaults write com.apple.appleseed.FeedbackAssistant "Autogather" -bool "false" 
 ```
 
 ## TODOS
+- lunarvim
 - fish advanced config
 - iterm config
 - 1password config (agent, ...)
