@@ -74,6 +74,7 @@ cask "iina" # media player
 cask "muzzle" # remove notification when casting
 cask "numi" # calculator
 cask "pika" # color picker
+cask "wezterm" # WezTerm Terminal
 
 # cask "rapidapi" # API tool
 # cask "orbstack" # docker manager
