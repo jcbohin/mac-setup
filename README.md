@@ -69,3 +69,7 @@ defaults write com.apple.appleseed.FeedbackAssistant "Autogather" -bool "false" 
 - 1password config (agent, ...)
 - tampermonkey scripts
 - neovim config (`set rtp+=/opt/homebrew/opt/fzf`)
+- Jan ?
+- Use Nix (https://nixos.org/download/) ?
+- ZelliJ ?
+- Btop ? https://github.com/aristocratos/btop
