@@ -33,7 +33,7 @@ brew "duti" # usefull to change default extension handler app
 # brew "fs" # better find
 brew "git"
 brew "git-delta" # better diff
-brew "gping" # petter ping
+brew "gping" # better ping
 brew "hexyl" # Hex viewer
 brew "jq" # tool for manipulating JSON
 brew "htmlq" # tool for manipulating HTML
