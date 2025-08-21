@@ -2,7 +2,7 @@
 
 These are configs to streamline my new/wiped mac setup and forget nothing important, getting ready in a few minutes, and installing and configuring my most used apps.
 
-## Software 
+## Software
 
 ### Install
 
@@ -18,7 +18,7 @@ Then, we download the [Brewfile](Brewfile) and run
 brew bundle
 ```
 
-### Apps Config 
+### Apps Config
 
 Download and copy files to `~` :
 ```
@@ -89,3 +89,4 @@ defaults write com.apple.appleseed.FeedbackAssistant "Autogather" -bool "false" 
 - stopthemadness
 - reeder
 - Orion browser
+- lm studio
