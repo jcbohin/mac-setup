@@ -90,3 +90,4 @@ defaults write com.apple.appleseed.FeedbackAssistant "Autogather" -bool "false" 
 - reeder
 - Orion browser
 - lm studio
+- m-cli : https://github.com/rgcr/m-cli
