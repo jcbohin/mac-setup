@@ -2,13 +2,11 @@
 # tap "homebrew/cask"
 tap "homebrew/bundle"
 tap "buo/cask-upgrade"
-tap "homebrew/cask-fonts"
 
 brew "mas" # mac app store
 
-
 # shell
-cask "iterm2" # iTerm2 terminal
+# cask "iterm2" # iTerm2 terminal
 brew "fish" # fish shell
 brew "starship" # shell prompt
 
@@ -64,22 +62,21 @@ mas "Tampermonkey", id: 1482490089 # to change certain webpages behavior
 mas "StopTheMadness Pro", id: 6471380298 # remove unwanted websites behaviors
 
 # Applications
-cask "netnewswire" # RSS reader
 cask "1password" # Password manager
 cask "typora" # Markdown editor
 cask "obsidian" # thoughts organizer
-cask "rectangle" # window manager
-cask "raycast" # Launcher
+# cask "rectangle" # window manager - no longter used since latest macos
+# cask "raycast" # Launcher - never realy "clicked"
 cask "iina" # media player
 cask "muzzle" # remove notification when casting
 cask "numi" # calculator
 cask "pika" # color picker
-cask "wezterm" # WezTerm Terminal
+# cask "wezterm" # WezTerm Terminal - replaced by ghostty
 
-# cask "rapidapi" # API tool
-# cask "orbstack" # docker manager
-# cask "path-finder" # nc file manager
-# cask "pixelsnap" # mesure pixels
+cask "rapidapi" # API tool
+cask "orbstack" # docker manager
+cask "path-finder" # nc file manager
+cask "pixelsnap" # mesure pixels
 
 
 mas "Tailscale", id: 1475387142 # VPN
@@ -96,3 +93,26 @@ cask "signal" # Signal Messaging
 
 cask "visual-studio-code"
 
+mas  "GoodNotes 5", id: 1444383602   # prise de notes manuscrites et schémas【2】
+cask "macwhisper"       # interface graphique ("GUI") pour Whisper d’OpenAI【1】
+cask "zed"              # éditeur de code ("code editor") ultra-rapide【1】
+cask "netnewswire"      # lecteur de flux ("RSS reader") open-source【1】
+cask "gitkraken"        # client Git graphique avec gestion de branches visuelle【1】
+
+# Python
+brew "uv"                                # gestionnaire de paquets Python (via pipx)
+
+# Navigateur & extensions Safari
+mas "Bear - Notes Confidentielles", id: 1091189122
+
+# Terminal & éditeurs
+brew  "zellij"                           # multiplexeur de terminaux moderne
+brew  "btop"                             # moniteur de ressources (CPU, RAM, réseau)
+cask  "visual-studio-code"               # Visual Studio Code, éditeur de code source
+
+mas "Reeder.", id: 6475002485
+mas "Kagi for Safari", id: 1622835804
+mas "StopTheMadness Pro", id: 6471380298
+mas "Sink It for Reddit", id: 6449873635
+
+cask "ghostty"

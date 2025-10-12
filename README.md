@@ -63,31 +63,16 @@ defaults write com.apple.appleseed.FeedbackAssistant "Autogather" -bool "false" 
 ```
 
 ## TODOS
-- lunarvim
-- macwhisper
-- uv
-- endel
-- bear
-- ghostty
 - fish advanced config
 - 1password config (agent, ...)
 - tampermonkey scripts
 - neovim config (`set rtp+=/opt/homebrew/opt/fzf`)
 - Jan & alternatives ?
 - Use Nix (https://nixos.org/download/) ?
-- ZelliJ ?
-- Btop ? https://github.com/aristocratos/btop
-- Ghostty
-- iterm config => deprecated with ghostty
-- tailscale ?
-- vscode ?
-- obsidian
-- cursor ? Zed ?
-- kagi search
-- pika
-- raycast ?
-- stopthemadness
-- reeder
-- Orion browser
-- lm studio
 - m-cli : https://github.com/rgcr/m-cli
+- ampcode ?
+- tampermonkey
+- lazyvim
+
+- bear
+- lm-studio
