@@ -116,3 +116,5 @@ mas "StopTheMadness Pro", id: 6471380298
 mas "Sink It for Reddit", id: 6449873635
 
 cask "ghostty"
+
+brew "m-cli"

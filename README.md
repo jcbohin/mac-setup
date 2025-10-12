@@ -69,7 +69,6 @@ defaults write com.apple.appleseed.FeedbackAssistant "Autogather" -bool "false" 
 - neovim config (`set rtp+=/opt/homebrew/opt/fzf`)
 - Jan & alternatives ?
 - Use Nix (https://nixos.org/download/) ?
-- m-cli : https://github.com/rgcr/m-cli
 - ampcode ?
 - tampermonkey
 - lazyvim
