@@ -75,3 +75,6 @@ defaults write com.apple.appleseed.FeedbackAssistant "Autogather" -bool "false" 
 
 - bear
 - lm-studio
+
+- rectangle
+- n8n
