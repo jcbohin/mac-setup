@@ -71,7 +71,6 @@ cask "iina" # media player
 cask "muzzle" # remove notification when casting
 cask "numi" # calculator
 cask "pika" # color picker
-# cask "wezterm" # WezTerm Terminal - replaced by ghostty
 
 cask "rapidapi" # API tool
 cask "orbstack" # docker manager
@@ -91,6 +90,7 @@ mas "Slack", id: 803453959 # Slack client
 mas "‎WhatsApp", id: 310633997 # Whatsapp
 cask "signal" # Signal Messaging
 
+cask "ghostty" # Modern terminal emulator
 cask "visual-studio-code"
 
 mas  "GoodNotes 5", id: 1444383602   # prise de notes manuscrites et schémas【2】
@@ -114,7 +114,5 @@ mas "Reeder.", id: 6475002485
 mas "Kagi for Safari", id: 1622835804
 mas "StopTheMadness Pro", id: 6471380298
 mas "Sink It for Reddit", id: 6449873635
-
-cask "ghostty"
 
 brew "m-cli"
