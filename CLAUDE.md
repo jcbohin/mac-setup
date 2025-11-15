@@ -19,9 +19,8 @@ mac-setup/
     ├── fish/                   # Fish shell configuration
     │   ├── config.fish        # Shell init with starship, fzf, zoxide, atuin
     │   └── fish_variables     # Fish internal variables
-    ├── wezterm/                # WezTerm terminal config (legacy, see note)
-    │   ├── wezterm.lua        # Main WezTerm configuration
-    │   └── appearance.lua     # Theme/appearance settings
+    ├── ghostty/                # Ghostty terminal configuration
+    │   └── config             # Main Ghostty configuration
     └── 1Password/              # 1Password SSH agent configuration
         └── ssh/agent.toml     # SSH key vault settings
 ```
@@ -37,8 +36,6 @@ The central package manifest containing:
 - **Mac App Store Apps**: Safari extensions, Microsoft Office, communication apps (Slack, WhatsApp, Signal)
 
 **Important Notes**:
-- Some entries have comments indicating deprecated/replaced tools (e.g., WezTerm → Ghostty)
-- Duplicate entries exist (visual-studio-code appears twice at lines 94 and 111)
 - Mixed language comments (English and French)
 
 ### .gitconfig (29 lines)
@@ -54,12 +51,12 @@ Minimal Fish shell initialization loading:
 - **zoxide**: Smart cd replacement (learns common directories)
 - **atuin**: Enhanced shell history with sync capabilities
 
-### .config/wezterm/wezterm.lua (42 lines)
-Terminal configuration (NOTE: Repository is transitioning to Ghostty):
+### .config/ghostty/config
+Terminal configuration using Ghostty:
 - Default shell: Fish at `/opt/homebrew/bin/fish`
-- Color scheme: Tokyo Night
+- Theme: Tokyo Night
 - Font: FiraCode Nerd Font Mono, size 12
-- Window: 90% opacity, 30pt blur, integrated decorations
+- Window: 90% opacity, 30pt blur, hidden titlebar
 
 ## Development Workflows
 
@@ -72,7 +69,7 @@ Terminal configuration (NOTE: Repository is transitioning to Ghostty):
 
 2. **Configuration Files**: Place in `.config/` directory matching XDG structure
    - Fish shell: `.config/fish/`
-   - Terminal: `.config/wezterm/` or `.config/ghostty/` (migration in progress)
+   - Terminal: `.config/ghostty/`
    - SSH: `.config/1Password/ssh/`
 
 3. **Git Configuration**: Update `.gitconfig` for git-related changes
@@ -148,11 +145,11 @@ cp .gitconfig ~/
 
 ### Code Style
 
-**Lua (WezTerm/Ghostty configs)**:
-- Use snake_case for variables: `local config = wezterm.config_builder()`
-- Tab indentation
-- Comment complex configurations
-- Return config object at end
+**Ghostty config**:
+- Simple key=value format
+- Group related settings with blank lines
+- Comment complex configurations with # prefix
+- Use XDG-compliant paths
 
 **Fish (Shell config)**:
 - One command per line for clarity
@@ -210,9 +207,6 @@ Current TODOs from README.md (lines 65-78):
 - [ ] Bear notes setup
 - [ ] lm-studio evaluation
 
-**Migration in Progress**:
-- WezTerm → Ghostty (Brewfile line 74 indicates WezTerm replaced by Ghostty, but WezTerm configs still present)
-
 ### Testing Changes
 
 **Before committing**:
@@ -261,16 +255,16 @@ Current TODOs from README.md (lines 65-78):
 - Setup guide: `./README.md`
 - Git settings: `./.gitconfig`
 - Shell config: `./.config/fish/config.fish`
-- Terminal config: `./.config/wezterm/wezterm.lua` (legacy)
+- Terminal config: `./.config/ghostty/config`
 
 **Key tools used**:
 - Package manager: Homebrew (`brew`)
 - Shell: Fish with Starship prompt
-- Terminal: Ghostty (migration from WezTerm in progress)
+- Terminal: Ghostty
 - Editor: Neovim, VSCode, Zed
 - Git diff: Difftastic + Delta
 - Password manager: 1Password (with SSH agent)
 
 ---
 
-*This CLAUDE.md was generated on 2025-11-15. Update when major structural changes occur.*
+*This CLAUDE.md was last updated on 2025-11-15: Completed migration from WezTerm to Ghostty.*
