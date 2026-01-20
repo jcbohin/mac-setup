@@ -78,3 +78,9 @@ defaults write com.apple.appleseed.FeedbackAssistant "Autogather" -bool "false" 
 
 - rectangle
 - n8n
+
+- Handy for dictation (replaces macwhisper)
+- Aerospace for window management (replaces rectangle)
+- zed editor
+- neovim
+- numicalc
