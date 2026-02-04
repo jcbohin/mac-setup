@@ -102,7 +102,6 @@ cask "gitkraken"        # client Git graphique avec gestion de branches visuelle
 # Python
 brew "uv"                                # gestionnaire de paquets Python (via pipx)
 
-# Navigateur & extensions Safari
 mas "Bear - Notes Confidentielles", id: 1091189122
 
 # Terminal & éditeurs
@@ -115,4 +114,4 @@ mas "Kagi for Safari", id: 1622835804
 mas "StopTheMadness Pro", id: 6471380298
 mas "Sink It for Reddit", id: 6449873635
 
-brew "m-cli"
+brew "m-cli"                             # tool to configure macos
