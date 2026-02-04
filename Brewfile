@@ -2,6 +2,7 @@
 # tap "homebrew/cask"
 tap "homebrew/bundle"
 tap "buo/cask-upgrade"
+tap "nikitabobko/tap"
 
 brew "mas" # mac app store
 
@@ -28,6 +29,7 @@ brew "fzf" # file fuzzy-finder
 brew "difftastic" # better diff
 # brew "dog" # DNS client deprecated upstream
 brew "duti" # usefull to change default extension handler app
+brew "fd" # find replacement (better find)
 # brew "fs" # better find
 brew "git"
 brew "git-delta" # better diff
@@ -60,6 +62,7 @@ mas "com.kagimacOS.Kagi-Search", id: 1622835804 # Kagi search
 mas "Vinegar", id: 1591303229 # Adds native video control to web videos
 mas "Tampermonkey", id: 1482490089 # to change certain webpages behavior
 mas "StopTheMadness Pro", id: 6471380298 # remove unwanted websites behaviors
+mas "Wipr", id: 1662217862 # ad blocker
 
 # Applications
 cask "1password" # Password manager
@@ -71,6 +74,9 @@ cask "iina" # media player
 cask "muzzle" # remove notification when casting
 cask "numi" # calculator
 cask "pika" # color picker
+cask "aerospace" # tiling window manager
+cask "handy" # speech to text
+cask "brainfm" # focus music
 
 cask "rapidapi" # API tool
 cask "orbstack" # docker manager

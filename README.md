@@ -26,6 +26,27 @@ Download and copy files to `~` :
 .gitconfig
 ```
 
+### LazyVim Setup
+
+To install the [LazyVim](https://www.lazyvim.org/) configuration for Neovim:
+
+```bash
+# Backup existing config if any
+mv ~/.config/nvim ~/.config/nvim.bak
+mv ~/.local/share/nvim ~/.local/share/nvim.bak
+
+# Install LazyVim starter
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+rm -rf ~/.config/nvim/.git
+
+# Start Neovim (it will install plugins)
+nvim
+```
+Once configured, copy the config back to this repo:
+```bash
+cp -r ~/.config/nvim .config/
+```
+
 ## MacOS config
 
 ```
@@ -67,20 +88,7 @@ defaults write com.apple.appleseed.FeedbackAssistant "Autogather" -bool "false" 
 - 1password config (agent, ...)
 - tampermonkey scripts
 - neovim config (`set rtp+=/opt/homebrew/opt/fzf`)
-- Jan & alternatives ?
 - Use Nix (https://nixos.org/download/) ?
-- ampcode ?
-- tampermonkey
-- lazyvim
+- ampcode ? pi ? opencode ?
 
-- bear
-- lm-studio
-
-- rectangle
-- n8n
-
-- Handy for dictation (replaces macwhisper)
-- Aerospace for window management (replaces rectangle)
-- zed editor
-- neovim
-- numicalc
+- tinkertool
